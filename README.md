@@ -17,7 +17,7 @@ If you forgot to clone with `--recursive`, and end up with empty submodule direc
 ```
 
 ## How We Used GitHub to Track the Assembly / Construction
-We created an[issue template](https://github.com/physical-computation/Sensor-Augmented-SLS/issues/new/choose) to make it easy to initiate each step of the assembly process. We created an issue for each step of the assembly process and we used [issue labels](https://github.com/physical-computation/Sensor-Augmented-SLS/labels) to tag the steps with information such as whether a step is relevant to a sensor component integration.
+We created an [issue template](https://github.com/physical-computation/Sensor-Augmented-SLS/issues/new/choose) to make it easy to initiate each step of the assembly process. We created an issue for each step of the assembly process and we used [issue labels](https://github.com/physical-computation/Sensor-Augmented-SLS/labels) to tag the steps with information such as whether a step is relevant to a sensor component integration.
 
 The GitHub issues tagged `Mechanical Assembly` contain both instructions for assembly as well as pictures of our actual assembly work for _every single stage of the assembly process_. The picture below is a collage of some of the assembly step pictures.
 
