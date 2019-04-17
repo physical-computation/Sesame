@@ -1,6 +1,24 @@
 # Sensor-Augmented-SLS
+This is the top-level repository for the hardware and firmware of the University of Cambridge Warp hardware platform. Three other repositories, [`Warp-hardware`](https://github.com/physical-computation/Warp-hardware), [`Warp-firmware`](https://github.com/physical-computation/Warp-firmware), and [`Sesame-logger`](https://github.com/physical-computation/Sesame-logger), contain the hardware design for the Warp sensor platform, and the firmware for Warp, and a Python tool for controlling the printer and four sensor groups (the 248-channel spectrometer, the 22-sensor Warp, and the 4-sensor Bosch CISS). These repositories are included here as git submodules.
+
+## Cloning the Repository 
+The correct way to clone this repository to get the hardware and firmware submodules is:
+```bash
+	git clone --recursive git@github.com:physical-computation/Sensor-Augmented-SLS.git
+```
+To update all submodules
+```bash
+	git pull --recurse-submodules
+	git submodule update --remote --recursive
+```
+If you forgot to clone with `--recursive`, and end up with empty submodule directories, you can remedy this with
+```bash
+	git submodule update --init
+```
 
 ## Assembly
+The GitHub issues tagged `Mechanical Assembly` contain both instructions for assembly as well as pictures of our actual assembly work. The picture below is a collage of some of the assembly step pictures.
+
 <img width="1184" alt="sesame-assembly" src="https://user-images.githubusercontent.com/86417/56277494-5bd19e00-60fc-11e9-9604-13b1446db845.png">
 
 
@@ -11,4 +29,8 @@
 <img width="1014" alt="sesame-spectrometer-fiber-window" src="https://user-images.githubusercontent.com/86417/56277499-5bd19e00-60fc-11e9-9bf0-fa77b9e34c70.png">
 
 ## Acknowledgements
+The original assembly team consisted of Rae Zhao, James Rhodes, Vlad-Mihai Mandric, and Phillip Stanley-Marbell. Later stages of the assembly involved Youchao Wang, Andrew Kadis, and Thomas Garry. The spectrometer integration hardware and print automation software was designed and implemented by Thomas Garry.
+
+This research is supported by an Alan Turing Institute award TU/B/000096 under EPSRC grant EP/N510129/1, by Royal Society grant RG170136, and by EPSRC grants EP/P001246/1 and EP/R022534/1.
+
 <img width="830" alt="sesame-credits" src="https://user-images.githubusercontent.com/86417/56277496-5bd19e00-60fc-11e9-95b9-550b3348c197.png">
