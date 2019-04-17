@@ -19,7 +19,7 @@ If you forgot to clone with `--recursive`, and end up with empty submodule direc
 ## How We Used GitHub to Track the Assembly / Construction
 We created an "Issue" for each step of the assembly process and we used Issue Labels to tag the steps with information such as whether a step is relevant to a sensor component integration.
 
-The GitHub issues tagged `Mechanical Assembly` contain both instructions for assembly as well as pictures of our actual assembly work. The picture below is a collage of some of the assembly step pictures.
+The GitHub issues tagged `Mechanical Assembly` contain both instructions for assembly as well as pictures of our actual assembly work for _every single stage of the assembly process_. The picture below is a collage of some of the assembly step pictures.
 
 <img width="1184" alt="sesame-assembly" src="https://user-images.githubusercontent.com/86417/56277494-5bd19e00-60fc-11e9-9604-13b1446db845.png">
 
