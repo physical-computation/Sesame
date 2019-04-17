@@ -17,7 +17,7 @@ If you forgot to clone with `--recursive`, and end up with empty submodule direc
 ```
 
 ## How We Used GitHub to Track the Assembly / Construction
-We created an "Issue" for each step of the assembly process and we used Issue Labels to tag the steps with information such as whether a step is relevant to a sensor component integration.
+We created an[issue template](https://github.com/physical-computation/Sensor-Augmented-SLS/issues/new/choose) to make it easy to initiate each step of the assembly process. We created an issue for each step of the assembly process and we used [issue labels](https://github.com/physical-computation/Sensor-Augmented-SLS/labels) to tag the steps with information such as whether a step is relevant to a sensor component integration.
 
 The GitHub issues tagged `Mechanical Assembly` contain both instructions for assembly as well as pictures of our actual assembly work for _every single stage of the assembly process_. The picture below is a collage of some of the assembly step pictures.
 
@@ -25,7 +25,7 @@ The GitHub issues tagged `Mechanical Assembly` contain both instructions for ass
 
 
 ## How We Use GitHub to Track Measurements and Prints
-We created an "Issue Tamplate" to make it easy to initiate a new experiment using the system and to fill in detail about a print and measurement. The `Sesame-logger` tool initiates a print in the SLS machine and at the same time also automatically creates a new GitHub repository to contain the sensor data that results from the print.
+We created an[issue template](https://github.com/physical-computation/Sensor-Augmented-SLS/issues/new/choose) to make it easy to initiate a new experiment using the system and to fill in detail about a print and measurement. The `Sesame-logger` tool initiates a print in the SLS machine and at the same time also automatically creates a new GitHub repository to contain the sensor data that results from the print.
 
 <img width="1050" alt="sesame-spectrometer-and-external-sensor" src="https://user-images.githubusercontent.com/86417/56277491-5bd19e00-60fc-11e9-8bce-bfee81975c8c.png">
 <img width="1177" alt="sesame-chamber-hat-and-spectrometer" src="https://user-images.githubusercontent.com/86417/56277492-5bd19e00-60fc-11e9-860c-b8a5fcda5f2d.png">
