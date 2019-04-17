@@ -33,4 +33,4 @@ The original assembly team consisted of Rae Zhao, James Rhodes, Vlad-Mihai Mandr
 
 This research is supported by an Alan Turing Institute award TU/B/000096 under EPSRC grant EP/N510129/1, by Royal Society grant RG170136, and by EPSRC grants EP/P001246/1 and EP/R022534/1.
 
-<img width="830" alt="sesame-credits" src="https://user-images.githubusercontent.com/86417/56277496-5bd19e00-60fc-11e9-95b9-550b3348c197.png">
+<img width="830" alt="sesame-credits" src="https://user-images.githubusercontent.com/86417/56280813-e61d0080-6102-11e9-9db4-6b07d1e80715.png">
