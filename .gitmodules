@@ -1,0 +1,9 @@
+[submodule "Warp-hardware"]
+	path = Warp-hardware
+	url = https://github.com/physical-computation/Warp-hardware
+[submodule "Warp-firmware"]
+	path = Warp-firmware
+	url = https://github.com/physical-computation/Warp-firmware
+[submodule "Sesame-logger"]
+	path = Sesame-logger
+	url = https://github.com/physical-computation/Sesame-logger
