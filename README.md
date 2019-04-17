@@ -16,6 +16,12 @@ If you forgot to clone with `--recursive`, and end up with empty submodule direc
 	git submodule update --init
 ```
 
+## How We Use GitHub to Track the Construction
+We created an "Issue" for each step of the assembly process and we used Issue Labels to tag the steps with information such as whether a setp is relevant to a sensor component integration.
+
+## How We Use GitHub to Track Measurements and Prints
+We created an "Issue Tamplate" to make it easy to initiate a new experiment using the system and to fill in detail about a print and measurement. The `Sesame-logger` tool initiates a print in the SLS machine and at the same time also automatically creates a new GitHub repository to contain the sensor data that results from the print.
+
 ## Assembly
 The GitHub issues tagged `Mechanical Assembly` contain both instructions for assembly as well as pictures of our actual assembly work. The picture below is a collage of some of the assembly step pictures.
 
