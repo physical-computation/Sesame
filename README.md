@@ -25,7 +25,7 @@ The GitHub issues tagged `Mechanical Assembly` contain both instructions for ass
 
 
 ## How We Use GitHub to Track Measurements and Prints
-We created an[issue template](https://github.com/physical-computation/Sensor-Augmented-SLS/issues/new/choose) to make it easy to initiate a new experiment using the system and to fill in detail about a print and measurement. The `Sesame-logger` tool initiates a print in the SLS machine and at the same time also automatically creates a new GitHub repository to contain the sensor data that results from the print.
+We created an [issue template](https://github.com/physical-computation/Sensor-Augmented-SLS/issues/new/choose) to make it easy to initiate a new experiment using the system and to fill in detail about a print and measurement. The `Sesame-logger` tool initiates a print in the SLS machine and at the same time also automatically creates a new GitHub repository to contain the sensor data that results from the print.
 
 <img width="1050" alt="sesame-spectrometer-and-external-sensor" src="https://user-images.githubusercontent.com/86417/56277491-5bd19e00-60fc-11e9-8bce-bfee81975c8c.png">
 <img width="1177" alt="sesame-chamber-hat-and-spectrometer" src="https://user-images.githubusercontent.com/86417/56277492-5bd19e00-60fc-11e9-860c-b8a5fcda5f2d.png">
