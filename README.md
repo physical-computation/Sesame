@@ -2,7 +2,7 @@
 This is the repository for the assembly documentation and tools for the University of Cambridge Physical Computation Laboratory's **Sensor-Augmented SLS System**, based on the Sintratec Kit. Three other repositories, [`Warp-hardware`](https://github.com/physical-computation/Warp-hardware), [`Warp-firmware`](https://github.com/physical-computation/Warp-firmware), and [`Sesame-logger`](https://github.com/physical-computation/Sesame-logger), contain the hardware design for the Warp sensor platform, the firmware for Warp, and our Python tool (`Sesame-logger`) for controlling the printer and four sensor groups (the 248-channel spectrometer, the 22-sensor Warp, and the 4-sensor Bosch CISS). These repositories are included here as git submodules.
 
 ## Cloning the Repository 
-The correct way to clone this repository to get the hardware and firmware submodules is:
+The correct way to clone this repository to get the submodules is:
 ```bash
 	git clone --recursive git@github.com:physical-computation/Sensor-Augmented-SLS.git
 ```
