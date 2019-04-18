@@ -27,10 +27,19 @@ The GitHub issues tagged [`Mechanical Assembly`](https://github.com/physical-com
 ## How We Use GitHub to Track Measurements and Prints
 We created an [issue template](https://github.com/physical-computation/Sensor-Augmented-SLS/issues/new/choose) to make it easy to initiate a new experiment using the system and to fill in detail about a print and measurement. The `Sesame-logger` tool initiates a print in the SLS machine and at the same time also automatically creates a new GitHub repository to contain the sensor data that results from the print.
 
+### Pictures of the Printer in Operation
+The spectrometer is mounted externally and fed by a glass optical fiber that provides a light path to the powder bed. The setup supports two different sensor arrays: Our [`Warp-hardware`](https://github.com/physical-computation/Warp-hardware) provides significantly more sensors, but you can opt to use the Bosch CISS device shown in the picture here if you do not wish to get Warp platforms manufactured:
 <img width="1050" alt="sesame-spectrometer-and-external-sensor" src="https://user-images.githubusercontent.com/86417/56277491-5bd19e00-60fc-11e9-8bce-bfee81975c8c.png">
-<img width="1177" alt="sesame-chamber-hat-and-spectrometer" src="https://user-images.githubusercontent.com/86417/56277492-5bd19e00-60fc-11e9-860c-b8a5fcda5f2d.png">
-<img width="1161" alt="sesame-spectrometer-fiber" src="https://user-images.githubusercontent.com/86417/56277498-5bd19e00-60fc-11e9-9bdd-85cf7afb2185.png">
+
+The window of the chamber during a print:
 <img width="1014" alt="sesame-spectrometer-fiber-window" src="https://user-images.githubusercontent.com/86417/56277499-5bd19e00-60fc-11e9-9bf0-fa77b9e34c70.png">
+
+The inside of the chamber during operation showing the glass optical fiber path:
+<img width="1177" alt="sesame-chamber-hat-and-spectrometer" src="https://user-images.githubusercontent.com/86417/56277492-5bd19e00-60fc-11e9-860c-b8a5fcda5f2d.png">
+
+The inside of the chamber showing the end of the glass optical fiber path:
+<img width="1161" alt="sesame-spectrometer-fiber" src="https://user-images.githubusercontent.com/86417/56277498-5bd19e00-60fc-11e9-9bdd-85cf7afb2185.png">
+
 
 ## Acknowledgements
 The original assembly team consisted of Rae Zhao, James Rhodes, Vlad-Mihai Mandric, and Phillip Stanley-Marbell. Later stages of the assembly involved Youchao Wang, Andrew Kadis, and Thomas Garry. The spectrometer integration hardware and print automation software was designed and implemented by Thomas Garry.
