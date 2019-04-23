@@ -4,7 +4,7 @@ This is the repository for the assembly documentation and tools for the Universi
 ## Cloning the Repository 
 The correct way to clone this repository to get the submodules is:
 ```bash
-	git clone --recursive git@github.com:physical-computation/Sensor-Augmented-SLS.git
+	git clone --recursive git@github.com:physical-computation/Sesame.git
 ```
 To update all submodules
 ```bash
