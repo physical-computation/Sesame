@@ -15,6 +15,10 @@ If you forgot to clone with `--recursive`, and end up with empty submodule direc
 ```bash
 	git submodule update --init
 ```
+Checkout master branch and take each submodule out of the "Detached HEAD" state:
+```bash
+	git submodule foreach git checkout master
+```
 
 ## How We Used GitHub to Track the Assembly / Construction
 We created an [issue template](https://github.com/physical-computation/Sensor-Augmented-SLS/issues/new/choose) to make it easy to initiate each step of the assembly process. We created an issue for each step of the assembly process and we used [issue labels](https://github.com/physical-computation/Sensor-Augmented-SLS/labels) to tag the steps with information such as whether a step is relevant to a sensor component integration.
